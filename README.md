@@ -1,5 +1,7 @@
-# Profile
+## AutoTests for UserProfile
+To see the created autotests, you need to go to the directories: script, integration_test, test_screen. The following directories have been created in the integration_test folder: features (it contains the profile functionality), step_definitions (it contains the user's steps in the form of fields for implementing the profile functionality, as well as validation of these fields). The logic of writing autotests has also been created (gherkin_suite.test.dart).The test_screen folder contains locators for testing.
 
+## UserProfile
 Combining [Elementary](https://pub.dev/packages/elementary)
 and [Bloc](https://pub.dev/packages/bloc).
 
